@@ -1,0 +1,58 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.GithubApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/github_dark_primary</item>
+        <item name="colorPrimaryVariant">@color/github_dark_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/iron_200</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextCard">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="profile_username">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:fontFamily">@font/segoe_regular</item>
+        <item name="android:text">@string/user_name</item>
+    </style>
+
+    <style name="profile_bio">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:fontFamily">@font/segoe_regular</item>
+        <item name="android:text">@string/profile_bio</item>
+    </style>
+
+    <style name="profile_stats">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/segoe_bold</item>
+        <item name="android:text">@string/dummy_data</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_github_dark</item>
+        <!-- Status & Navigation bar color. -->
+        <item name="android:statusBarColor">@color/github_dark_primary_dark</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Color1SwitchStyle">
+        <item name="colorControlActivated">@color/iron_500</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,85 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.GithubApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/github_light_dark</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/iron_500</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/iron_200</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="colorControlNormal">@color/iron_500</item>
+        <item name="android:editTextColor">@color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+    <style name="Theme.GithubApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ImageLogo">
+        <item name="android:src">@drawable/ic_github_mark_white</item>
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="contentDescription">@string/title_icon</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/iron_500</item>
+    </style>
+
+    <style name="TextCard">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MenuItem" parent="ThemeOverlay.MaterialComponents.Dark">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/segoe_regular</item>
+    </style>
+
+    <style name="profile_username">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:fontFamily">@font/segoe_regular</item>
+        <item name="android:text">@string/user_name</item>
+    </style>
+
+    <style name="profile_bio">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:fontFamily">@font/segoe_regular</item>
+        <item name="android:text">@string/profile_bio</item>
+    </style>
+
+    <style name="profile_stats">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/segoe_bold</item>
+        <item name="android:text">@string/dummy_data</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_github_light</item>
+        <!-- Status & Navigation bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Color1SwitchStyle">
+        <item name="colorControlActivated">@color/black</item>
+    </style>
+
+</resources>

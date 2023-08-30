@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GitHub</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="title_icon">Main Icon</string>
+    <string name="search">Username Search</string>
+    <string name="search_hint">Github Username</string>
+    <string name="theme">THEME</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="user_name">User Name</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="results">Showing %d results</string>
+    <string name="dummy_data">100</string>
+    <string name="repo">Repository</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="profile_bio">Bio</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="not_found">Not found</string>
+    <string name="menu_favorite">Favorite User</string>
+    <string name="menu_setting">Setting</string>
+</resources>
